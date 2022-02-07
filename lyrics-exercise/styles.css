@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+  }
+
+.header{
+    padding-top: 40px;
+
+      
+}
+
+p{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-bottom: 70px;
+  }
+
+  footer{
+        text-align: center;
+        border: 3px solid palevioletred;
+      
+  }
