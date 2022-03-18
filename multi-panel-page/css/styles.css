@@ -2,6 +2,13 @@ body{
     font-family: 'Archivo Narrow', sans-serif;
 }
 
+header{
+    text-align: center;
+    color:beige;
+    background-image:url("https://www.formula1.com/content/dam/fom-website/manual/Misc/2022manual/WinterMarch/1386255549.jpg.transform/9col/image.jpg");
+    background-size: cover; 
+}
+
 h1, h2{
     margin: 0;
 }
@@ -10,13 +17,6 @@ h1, h2{
     width: 960px;
     margin: auto;
     
-}
-
-header{
-    text-align: center;
-    color:white;
-    background-image: url("https://www.thoughtco.com/thmb/EFxFiwoFzvHNmDRDhxhTCMntR_Q=/4256x2394/smart/filters:no_upscale()/low-angle-view-of-firework-display-over-river-during-sunset-604213021-57752e7b3df78cb62c11aba4.jpg");
-    background-size: cover; 
 }
 
 header .contents{
