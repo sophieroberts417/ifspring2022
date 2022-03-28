@@ -1,0 +1,70 @@
+html {
+    background-color: #FFF5F2;
+    font-family: 'Scope One', serif; 
+    font-size: 1.3rem;
+    }
+
+header {
+    width: 100%;
+    background-image:url("images/classic-madeleines-4.jpg");
+    text-align: center;
+    margin-top: 2em;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+    font-weight: 800; 
+    }
+
+ #info {
+    width: 100%;
+    padding: 2em;
+    margin-top: 2em;
+    font-size: 1.3rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    #info h2{
+        font-size: 4rem;
+    }
+
+    #timing {
+        padding:20%;
+        background-color: #FFAEB4;
+    }
+
+    #before {
+        padding: 20%;
+        background-color: #C4C4C4;
+    }
+
+    #ingredients {
+        float: left;
+        width: 80%;
+    }
+
+    #instructions {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .step {
+        margin-bottom: 3em;
+    }
+
+    .step ol {
+        padding: 2em;
+        margin-top: 2em;
+    
+    }
+
+    .step img {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
