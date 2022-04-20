@@ -1,0 +1,26 @@
+body {
+    background-image: url("images/478242451.jpg");
+    object-fit:fill;
+    background-color: #cccccc;
+    margin:20%;
+   }
+
+h1{
+    font-family: 'Barrio', cursive;
+    color:blue;
+}
+
+h2{
+    font-family: 'Barrio', cursive;
+    color: white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+img{
+    width:40%;
+}
+
