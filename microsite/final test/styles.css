@@ -1,0 +1,329 @@
+html{
+    background: url(images/background\ for\ microsite.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    /* background-image: url("images/background\ for\ microsite.jpg");
+    object-fit:fill;
+    background-color: #cccccc; */
+    margin:10% 15% 0 15%;
+   }
+
+h1{
+    font-family: 'Barrio', cursive;
+    color: rgb(213, 238, 247);
+    font-size: 7em;
+    text-shadow: 7px 7px 0px #1a373f, 5px 5px 5px rgba(83,37,206,0);
+    text-align: center;
+}
+
+h2{
+    font-family: 'Barrio', cursive;
+    color: white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+img{
+    width:40%;
+}
+
+
+/* html {
+    
+}
+body {
+    background-color: #c9888c;
+    padding: 0;
+    margin: 0;
+}
+#canvas {
+    background-image: url('../images/tartan.jpeg');
+    opacity: 25%;
+    width: 100%;
+    height: 4100px;
+    z-index: -1;
+    display: block;
+    position: absolute;
+}
+#homePage, #galleryPage {
+    z-index: 3;
+    position: relative;
+}
+header {
+    padding: 10px 40px 10px 40px;
+    background-color: #67B1F6;
+    box-sizing: border-box;
+}
+header h1 {
+    font-family: lust-script,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6.2em;
+    color: #e9e6e1;
+    text-align: center;
+    margin-top: 0px;
+}
+header p {
+    width: 80%;
+    color: #e9e6e1;
+    font-size: 1.8em;
+    font-family: classico-urw,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+.navBar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navBar button {
+    border: none;
+    background-color: #67B1F6;
+    font-family: classico-urw-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+}
+.navBar button:hover {
+    cursor: pointer;
+    background-color: #4f8cc5;
+    font-family: classico-urw-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+}
+.infoSection {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 40px 10px 40px;
+    box-sizing: border-box;
+    display: block;
+    background-color: none;
+}
+.infoSection h2 {
+    font-family: lust-script,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
+}
+.infoSection p {
+    font-size: 1.8em;
+    font-family: classico-urw,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.infoSection small {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+}
+#history p {
+    width: 50%;
+    margin-right: 20px;
+}
+#history #imgBox {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    margin-right: -40px;
+}
+#imgBox img {
+    margin-left: 20px;
+    margin-right: auto;
+    clear: both;
+}
+#breeds img {
+    width: 100%;
+}
+#popCulture img {
+    width: 100%;
+}
+#imgBound {
+    width: 100%;
+}
+#gallery img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navButtons {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navButtons button {
+    border: none;
+    background-color: transparent;
+    font-family: classico-urw-condensed, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+}
+#navButtons button:hover {
+    background-color: #a26d70;
+    cursor: pointer;
+}
+#grid ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    line-height: 1;
+    list-style: none;
+}
+#grid li {
+    width: 80%;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#grid li img{
+    width: 100%;
+}
+#grid li a:hover{
+    opacity: 50%;
+}
+
+
+@media (max-width: 770px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+        padding: 10px 30px 10px 30px;
+        background-color: #67B1F6;
+    }
+
+        header h1 {
+            font-size: 3em;
+            width: 100%;
+            text-align: center;
+        }
+
+    .navBar {
+        width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        .navBar button {
+            border: none;
+            font-size: 1.2em;
+            font-style: normal;
+        }
+
+    header p {
+        width: 80%;
+        color: #e9e6e1;
+        font-size: 1.2em;
+        font-family: classico-urw,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .infoSection {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px 20px 10px 20px;
+    }
+    .infoSection h2 {
+        font-family: lust-script,sans-serif;
+        font-size: 2.4em;
+    }
+    .infoSection p {
+        font-size: 1.2em;
+    }
+    .infoSection small {
+        font-size: 0.8em;
+    }
+    #history p {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #history #imgBox {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    #imgBox img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+   
+    #navButtons {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    #navButtons button {
+        font-size: 1.8em;
+        margin-left: 10px;
+    }
+    #galleryPage {
+        margin-left: 0%;
+    }
+
+
+    #gallery img {
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #grid ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    #grid li {
+        height: 60px;
+        
+    }
+} */

@@ -1,0 +1,306 @@
+/* NAV BAR */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ html {
+     font-size: 62.5%;
+     font-family: 'Roboto', sans-serif;
+     margin: 0 0 0 0;
+ }
+ 
+ li {
+     list-style: none;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+
+ .header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: rgb(13, 51, 95);
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.navbar{
+    background-color: rgb(15, 40, 88);
+    /* position: fixed; */
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: rgb(19, 55, 88) 2px 2px 0;
+    margin: 0 0 0 0;
+    justify-content:space-evenly;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #f3f7fd;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+  /* OTHER STYLES */
+
+body {
+    background-image: url("images/background\ for\ microsite.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin:10% 15% 5% 15%; */
+   }
+
+h1{
+    font-family: 'Barrio', cursive;
+    color: rgb(213, 238, 247);
+    font-size: 8em;
+    text-shadow: 10px -4px 0px #1a373f, 5px 5px 5px rgb(83 37 206 / 0%);
+    text-align: center;
+    margin-top: 4%;
+}
+
+main{
+    margin:10% 15% 5% 15%;
+}
+
+h2{
+    font-family: 'Barrio', cursive;
+    color: white;
+    padding-bottom: .5rem;
+    padding-top:2rem;
+    font-size: 2.3rem;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.6rem;
+}
+
+img{
+    width:40%;
+}
+
+img.headimg{
+    /* display: flex;
+    margin: auto;  */
+    width:50%;
+    float:right;
+}
+
+img.rangeimg{
+    /* display: flex;
+    margin: auto;
+    width:50%; */
+    float:left;
+}
+
+img.moveimg{
+    float:right;
+}
+
+img.endimg{
+    display: block;
+    margin: auto;
+    width: 20%
+}
+
+img.threatimg{
+    float:left;
+}
+
+img.breedimg{
+    float:left;
+    width: 50%;
+}
+
+#intro h2{
+    padding-top: 1.3em;
+    font-size: 3.2em;
+}
+#intro p{
+    margin-bottom:20%;
+}
+
+#range p{
+    padding-bottom: 2em;
+}
+
+#threats p{
+    padding-bottom: 3em;
+}
+
+#movement p{
+    padding-bottom: 3em;
+}
+
+#breeding p{
+    padding-bottom: 10em;
+}
+/* .nav-spacer {
+    position: absolute;
+    top:-20px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+} */
+/* #intro.infoSection{
+    display: grid;
+    grid-template-columns: 2fr;
+} */
+
+
+@media(max-width: 768px){
+    img.headimg{
+        width:100%;
+    }  
+    h2{
+        text-align: center;
+        font-size: 4rem;
+        padding-bottom: 2.5rem;
+    }
+    #intro h2{
+        font-size: 4rem;
+    }
+    p{
+        text-align: justify;
+        font-size:2em;
+    }
+    h1{
+        margin-top: 35%;
+    }
+    img.breedimg{
+        width:100%;
+    }
+
+    img.moveimg{
+        width:100%;
+    }
+
+    img.endimg{
+        width: 50%
+    }
+    
+    img.threatimg{
+        width: 100%;
+        padding-bottom: 2.9rem;
+    }
+    #range p{
+        padding-bottom: 0em;
+    }
+    
+    #threats p{
+        padding-bottom: 2em;
+    }
+    
+    #movement p{
+        padding-bottom: 2em;
+    }
+    
+    #breeding p{
+        padding-bottom: 8em;
+    }   
+
+    #movement h2{
+        padding-top: 1rem;
+    }
+
+    a.nav-link{
+        font-size: 2rem;
+        color:rgb(19, 55, 88);
+    }
+
+    nav.navbar{
+        position: fixed;
+    }
+
+}
+
+@media(max-width: 480px){
+  
+    h2{
+        text-align: center;
+        font-size: 4rem;
+        padding-bottom: 2.5rem;
+    }
+
+    p{
+        text-align: justify;
+        font-size:1.5em;
+    }
+    h1{
+        margin-top: 35%;
+        font-size: 6em;
+    }
+
+
+}
